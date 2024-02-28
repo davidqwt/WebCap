@@ -1,0 +1,46 @@
+.card{
+    background-color:#495e57;
+    height: 330px;
+    margin-top: 20px;
+    padding: 3px;
+}
+h1{
+    margin-left: 20%;
+    color: #f4ce14;
+    font: 40pt karla;
+}
+h2{
+    margin-left: 20%;
+    margin-top: -40px;
+    color: white;
+    font: 18pt karla;
+}
+p{
+    margin-left: 20%;
+    color: white;
+    font: normal;
+    font-size: 16pt;
+    max-width: 350px;
+    line-height: 1;
+}
+button{
+    width:150px;
+    height: 30px;
+    margin-left: 20%;
+    font-weight: bold ;
+    background-color: #f4ce14;
+    border-radius: 12px;
+}
+#foodImg{
+    border-radius: 20px;
+    object-fit: cover;
+    height: 38vh;
+    width:18vw;
+    min-width: 300px;
+    top:15vh;
+    right:25vw;
+    position: absolute;
+}
+@media screen and (max-width: 1000px) {
+    #foodImg {display: none}
+  };
