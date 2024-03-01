@@ -1,7 +1,10 @@
+import Special from "../Homepage/Special"
+
+
 export default function CustomersSay(){
     return(
         <div>
-            customers
+           <Special/>
         </div>
     )
 }

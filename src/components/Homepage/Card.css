@@ -1,0 +1,56 @@
+.special {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+  }
+  .special-body{
+    display: flex;
+    flex-wrap: wrap;
+  }
+.special-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .card {
+    flex: 1 1 20%;
+    width: 100%;
+    margin: 2%;
+  }
+
+  .card img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+
+  .card-details {
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+  }
+
+  .card-info {
+    display: flex; /* make name and price in one line */
+    margin-top: 2%;
+  }
+
+  .card-name {
+    font: bold 14pt arial;
+  }
+
+  .card-price {
+    color:#EE9972;
+    margin-left: auto;
+    margin-right: 0;
+  }
+
+  .card-description{
+    margin-top: 0;
+  }
+  .delivery{
+    font: bold 12pt arial;
+    margin-top: auto;
+    margin-bottom: 10%;
+}

@@ -1,21 +1,21 @@
-.card{
+.heroSection{
     background-color:#495e57;
     height: 330px;
     margin-top: 20px;
     padding: 3px;
 }
-h1{
+.littleLemon1{
     margin-left: 20%;
     color: #f4ce14;
     font: 40pt karla;
 }
-h2{
+.location1{
     margin-left: 20%;
     margin-top: -40px;
     color: white;
     font: 18pt karla;
 }
-p{
+.description{
     margin-left: 20%;
     color: white;
     font: normal;
@@ -25,7 +25,7 @@ p{
 }
 button{
     width:150px;
-    height: 30px;
+    height:40px;
     margin-left: 20%;
     font-weight: bold ;
     background-color: #f4ce14;
@@ -34,13 +34,14 @@ button{
 #foodImg{
     border-radius: 20px;
     object-fit: cover;
-    height: 38vh;
-    width:18vw;
-    min-width: 300px;
-    top:15vh;
-    right:25vw;
+    height: 30vh;
+    width:17vw;
+    min-width: 250px;
+    max-width: 400px;
+    top:10%;
+    right:20%;
     position: absolute;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px)  {
     #foodImg {display: none}
   };
