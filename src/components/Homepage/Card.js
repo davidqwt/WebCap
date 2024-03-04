@@ -9,7 +9,7 @@ const Card = ({ name,price,description,image }) => {
       <div className="card-details">
          <div className="card-info">
              <p className="card-name">{name}</p>
-             <p className="card-price">${price}</p>
+             <p className="card-price">{price}</p>
         </div>
         <p className="card-description">{description}</p>
         <p className="delivery">Order a delivery</p>

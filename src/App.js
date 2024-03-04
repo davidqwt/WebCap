@@ -1,4 +1,5 @@
 import './App.css';
+import HomePage from './components/Homepage/Homepage';
 import NavBar from './components/Nav/NavBar';
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
      </header>
 
      <main>
-
+    
      </main>
 
      <footer></footer>
