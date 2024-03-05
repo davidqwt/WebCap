@@ -3,9 +3,9 @@ import Special from "./Special"
 
 export default function HomePage(){
     return(
-        <div>
+        <main className="home">
             <HeroSection/>
             <Special/>
-        </div>
+        </main>
     )
 }

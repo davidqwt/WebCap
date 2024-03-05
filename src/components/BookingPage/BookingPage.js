@@ -1,5 +1,4 @@
 import BookingForm from "./BookingForm"
-import "./BookingPage.css"
 import{  Routes, Route, useNavigate} from "react-router-dom"
 import { useEffect,useReducer } from 'react'
 import { fetchData,submitAPI } from './API';

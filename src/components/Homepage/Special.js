@@ -2,6 +2,7 @@ import Card from "./Card";
 import brus from "../../icons_assets/bruchetta.svg";
 import greek from "../../icons_assets/greek salad.jpg";
 import dessert from "../../icons_assets/lemon dessert.jpg";
+import { Link } from "react-router-dom";
 
 const projects = [
     {
@@ -27,7 +28,7 @@ const projects = [
 const Special = () => {
   return (
     <section className="special">
-      <h2 class="special-heading">This Week Specials!<button className="menuButton"> Online Menu</button></h2>
+      <h2 class="special-heading">This Week Specials!<Link to="/menu"><button className="menuButton" aria-label="onClick"> Online Menu</button></Link></h2>
       <div className="special-body">
         {projects.map((data) => {
           return(<Card key={data.name}

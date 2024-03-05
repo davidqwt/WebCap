@@ -49,7 +49,7 @@ test("updateTimes returns the same state", () => {
 
 test("submitAPI returns true", () => {
   const formData = {
-    date: "2022-10-12",
+    date: "2024-01-12",
     time: "20:00",
     guests: 5,
     occasion: "Birthday",
@@ -57,3 +57,5 @@ test("submitAPI returns true", () => {
   const result = submitAPI(formData);
   expect(result).toBe(true);
 });
+
+

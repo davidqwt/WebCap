@@ -31,6 +31,9 @@ button{
     background-color: #f4ce14;
     border-radius: 12px;
 }
+button:hover {
+    background-color: #c2a720;
+  }
 #foodImg{
     border-radius: 20px;
     object-fit: cover;

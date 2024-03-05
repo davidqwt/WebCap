@@ -1,0 +1,41 @@
+.menu {
+    margin: 20px;
+  }
+  
+  .category {
+    margin-bottom: 30px;
+  }
+  
+  .category h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .menu-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .menu-item img {
+    width: 100%;
+  height: 70%;
+  object-fit: cover;
+  border-radius: 5px;
+  }
+  
+  .item-details {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+  }
+  
+  .item-details h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  
+  .item-details p {
+    margin: 0;
+  }
+  

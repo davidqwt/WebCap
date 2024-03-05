@@ -50,8 +50,21 @@
   .card-description{
     margin-top: 0;
   }
-  .delivery{
-    font: bold 12pt arial;
+
+.delivery {
+  font: bold arial;
     margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 10%;
+  padding: 10px 20px;
+  background-color: #f4ce14;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delivery:hover {
+  background-color: #c2a720;
 }
