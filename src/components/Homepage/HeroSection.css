@@ -5,6 +5,7 @@
     padding: 3px;
 }
 .littleLemon1{
+    margin-top: 20px;
     margin-left: 20%;
     color: #f4ce14;
     font: 40pt karla;
@@ -23,7 +24,7 @@
     max-width: 350px;
     line-height: 1;
 }
-button{
+.homeButton{
     width:150px;
     height:40px;
     margin-left: 20%;
@@ -31,7 +32,7 @@ button{
     background-color: #f4ce14;
     border-radius: 12px;
 }
-button:hover {
+.homeButton:hover {
     background-color: #c2a720;
   }
 #foodImg{

@@ -15,10 +15,10 @@ export default function BookingForm({ availableTimes, dispatch,submitForm }){
       const handleSubmit=(e)=>{
         e.preventDefault()
         submitForm(e)
-        setTimes()
-        setDate()
-        setGuests()
-        setOccasion()
+        setTimes("")
+        setDate("")
+        setGuests("")
+        setOccasion("")
       }
 
       const getIsFormValid = () => {
@@ -31,7 +31,7 @@ export default function BookingForm({ availableTimes, dispatch,submitForm }){
         <form onSubmit={handleSubmit}>
                 <h1 className="bookTitle">Book Now!</h1>
 
-            <fieldset>
+            <fieldset className="bookingFieldset">
 
             <label htmlFor="res-date">Choose date</label>
             <input
@@ -60,7 +60,7 @@ export default function BookingForm({ availableTimes, dispatch,submitForm }){
               <option>Anniversary</option>
            </select>
 
-          <button type="submit" aria-label="On Click" value="Make Your reservation" disabled={!getIsFormValid()}>Submit</button>
+          <button type="submit" className="bookingButton"aria-label="On Click" value="Make Your reservation" disabled={!getIsFormValid()}>Submit</button>
 
           </fieldset>
         </form>

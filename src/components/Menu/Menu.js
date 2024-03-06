@@ -5,10 +5,10 @@ const Menu = () => {
     return (
       <>
         <section className="menu">
-  <h1>Our Menu</h1>
+  <h1>Our Menu:</h1>
   
   <div className="category">
-    <h2>Appetizers</h2>
+    <h2>Appetizers:</h2>
     <div className="menu-items">
       {MenuData.filter(item => item.type === 'appetizer').map((item, index) => (
         <div key={index} className="menu-item">
@@ -23,7 +23,7 @@ const Menu = () => {
   </div>
 
   <div className="category">
-    <h2>Main Dishes</h2>
+    <h2>Main Dishes:</h2>
     <div className="menu-items">
       {MenuData.filter(item => item.type === 'main').map((item, index) => (
         <div key={index} className="menu-item">
@@ -38,7 +38,7 @@ const Menu = () => {
   </div>
 
   <div className="category">
-    <h2>Desserts</h2>
+    <h2>Desserts:</h2>
     <div className="menu-items">
       {MenuData.filter(item => item.type === 'dessert').map((item, index) => (
         <div key={index} className="menu-item">

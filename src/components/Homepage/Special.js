@@ -28,7 +28,7 @@ const projects = [
 const Special = () => {
   return (
     <section className="special">
-      <h2 class="special-heading">This Week Specials!<Link to="/menu"><button className="menuButton" aria-label="onClick"> Online Menu</button></Link></h2>
+      <h2 class="special-heading">This Week Specials!<Link to="/menu"><button className="homeButton" aria-label="onClick"> Online Menu</button></Link></h2>
       <div className="special-body">
         {projects.map((data) => {
           return(<Card key={data.name}

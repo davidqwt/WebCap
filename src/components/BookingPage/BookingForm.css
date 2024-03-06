@@ -6,7 +6,7 @@ form {
   .bookTitle{
     margin-left: 40%;
   }
-  fieldset {
+  .bookingFieldset {
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 20px;
@@ -28,7 +28,7 @@ form {
     margin-bottom: 10px;
   }
   
-  button[type="submit"] {
+  .bookingButton {
     background-color: #007bff;
     color: #fff;
     border: none;
@@ -38,11 +38,11 @@ form {
     margin-left: 35%
   }
   
-  button[type="submit"]:hover {
+  .bookingButton:hover {
     background-color: #0056b3;
   }
   
-  button[type="submit"]:disabled {
+  .bookingButton:disabled {
     background-color: #ccc;
     cursor: not-allowed;
   }

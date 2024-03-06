@@ -1,0 +1,13 @@
+
+.signupFieldset{
+    border:hidden;
+}
+.signupFieldset h2{
+    text-align: center;
+    font-size: 30px;
+}
+.FieldError {
+    bottom: -6px;
+    color: red;
+    font-size: 14px;
+  }

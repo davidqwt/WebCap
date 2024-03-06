@@ -1,0 +1,35 @@
+.testimonials{
+    margin-top: 5%;
+    background-color: #495e57;
+    padding-top: 3%;
+    padding-bottom: 7%;
+}
+.testimonials h2{
+    margin-left: 45%;
+    font-size: 30px;
+    color: white;
+}
+.customers {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: nowrap;
+  margin-left: 20%;
+  margin-right: 20%;
+  }
+
+.individual{
+    border: 1px solid #5e5050;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: wheat;
+
+}
+.individual img {
+    width: 70%;
+    border-radius: 15px;
+  }
+
+  @media screen and (max-width: 1500px)  {
+    .customers {flex-wrap: wrap}
+  };

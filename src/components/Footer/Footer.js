@@ -7,7 +7,7 @@ const Footer = () => {
       <footer className="footer">
         <div className="footer-content">
           <div className="footer-column">
-            <img className="footer-logo" src={FooterImg} alt="Little lemon footer pic" />
+            <Link to="/"><img className="footer-logo" src={FooterImg} alt="Little lemon footer pic" /></Link>
           </div>
           <div className="footer-column">
             <h4>Navigation</h4>
@@ -16,6 +16,7 @@ const Footer = () => {
               <li><Link to="/about">About</Link></li>
               <li><Link to="/menu">Menu</Link></li>
               <li><Link to="/BookingPage">Booking</Link></li>
+              <li> <Link to="/customersSay">Testimonials</Link></li>
             </ul>
           </div>
 
@@ -42,7 +43,7 @@ const Footer = () => {
             </div>
 
         </div>
-        <p className="footer-copyright">&copy; 2023 Coursera Meta Front-End Developer.</p>
+        <p className="footer-copyright">&copy; Coursera Meta Front-End Developer.</p>
       </footer>
     );
   };

@@ -9,7 +9,7 @@ export default function HeroSection(){
             <h1 className="littleLemon1">Little Lemon</h1>
             <h2 className="location1">Chicago</h2>
             <p className="description">We are a family owned Mediterranean restaurant, focoused on traditional recipes served with a modern twist.</p>
-            <Link to="/BookingPage"><button aria-label="onClick">Reserve a Table</button></Link>
+            <Link to="/BookingPage"><button aria-label="onClick"className="homeButton">Reserve a Table</button></Link>
         </div>
 
         <img id="foodImg"src={foodImg} alt="food image" ></img>
